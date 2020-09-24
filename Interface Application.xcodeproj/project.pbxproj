@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E03EC4832514EDFB009B35CB /* FirstAppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03EC4822514EDFB009B35CB /* FirstAppController.swift */; };
+		E03EC4872514EFE7009B35CB /* SecondAppCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03EC4862514EFE7009B35CB /* SecondAppCell.swift */; };
+		E05ECC432513E768006F85E7 /* SecondAppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05ECC422513E768006F85E7 /* SecondAppController.swift */; };
 		E0782103250CD70400AE4B89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0782102250CD70400AE4B89 /* AppDelegate.swift */; };
 		E0782105250CD70400AE4B89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0782104250CD70400AE4B89 /* SceneDelegate.swift */; };
-		E0782107250CD70400AE4B89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0782106250CD70400AE4B89 /* ViewController.swift */; };
 		E078210A250CD70400AE4B89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0782108250CD70400AE4B89 /* Main.storyboard */; };
 		E078210C250CD70700AE4B89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E078210B250CD70700AE4B89 /* Assets.xcassets */; };
 		E078210F250CD70700AE4B89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E078210D250CD70700AE4B89 /* LaunchScreen.storyboard */; };
+		E0782117250CD77C00AE4B89 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0782116250CD77C00AE4B89 /* TableViewController.swift */; };
+		E0782119250CDDEA00AE4B89 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0782118250CDDEA00AE4B89 /* TableViewCell.swift */; };
+		E0DA22FC2518DD4500391FBE /* OpenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DA22FB2518DD4500391FBE /* OpenController.swift */; };
+		E0ECB123251CF0DB0054A455 /* FirstAppCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ECB122251CF0DB0054A455 /* FirstAppCell.swift */; };
+		E0ECB126251D07980054A455 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ECB125251D07980054A455 /* Emoji.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E03EC4822514EDFB009B35CB /* FirstAppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppController.swift; sourceTree = "<group>"; };
+		E03EC4862514EFE7009B35CB /* SecondAppCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondAppCell.swift; sourceTree = "<group>"; };
+		E05ECC422513E768006F85E7 /* SecondAppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondAppController.swift; sourceTree = "<group>"; };
 		E07820FF250CD70400AE4B89 /* Interface Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Interface Application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0782102250CD70400AE4B89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0782104250CD70400AE4B89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E0782106250CD70400AE4B89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E0782109250CD70400AE4B89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E078210B250CD70700AE4B89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E078210E250CD70700AE4B89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0782110250CD70700AE4B89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0782116250CD77C00AE4B89 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		E0782118250CDDEA00AE4B89 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		E0DA22FB2518DD4500391FBE /* OpenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenController.swift; sourceTree = "<group>"; };
+		E0ECB122251CF0DB0054A455 /* FirstAppCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppCell.swift; sourceTree = "<group>"; };
+		E0ECB125251D07980054A455 /* Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +51,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E03EC4842514EE27009B35CB /* First */ = {
+			isa = PBXGroup;
+			children = (
+				E03EC4822514EDFB009B35CB /* FirstAppController.swift */,
+				E0ECB122251CF0DB0054A455 /* FirstAppCell.swift */,
+				E0ECB125251D07980054A455 /* Emoji.swift */,
+			);
+			path = First;
+			sourceTree = "<group>";
+		};
+		E03EC4852514EE3A009B35CB /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				E05ECC422513E768006F85E7 /* SecondAppController.swift */,
+				E03EC4862514EFE7009B35CB /* SecondAppCell.swift */,
+				E0DA22FB2518DD4500391FBE /* OpenController.swift */,
+			);
+			path = Second;
+			sourceTree = "<group>";
+		};
 		E07820F6250CD70400AE4B89 = {
 			isa = PBXGroup;
 			children = (
@@ -58,13 +92,24 @@
 			children = (
 				E0782102250CD70400AE4B89 /* AppDelegate.swift */,
 				E0782104250CD70400AE4B89 /* SceneDelegate.swift */,
-				E0782106250CD70400AE4B89 /* ViewController.swift */,
 				E0782108250CD70400AE4B89 /* Main.storyboard */,
+				E0CBFFDA2513D6DC00E404B5 /* Main */,
+				E03EC4842514EE27009B35CB /* First */,
+				E03EC4852514EE3A009B35CB /* Second */,
 				E078210B250CD70700AE4B89 /* Assets.xcassets */,
 				E078210D250CD70700AE4B89 /* LaunchScreen.storyboard */,
 				E0782110250CD70700AE4B89 /* Info.plist */,
 			);
 			path = "Interface Application";
+			sourceTree = "<group>";
+		};
+		E0CBFFDA2513D6DC00E404B5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E0782116250CD77C00AE4B89 /* TableViewController.swift */,
+				E0782118250CDDEA00AE4B89 /* TableViewCell.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -94,7 +139,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1170;
-				LastUpgradeCheck = 1170;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = Hutr0;
 				TargetAttributes = {
 					E07820FE250CD70400AE4B89 = {
@@ -138,9 +183,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0782107250CD70400AE4B89 /* ViewController.swift in Sources */,
+				E0ECB126251D07980054A455 /* Emoji.swift in Sources */,
+				E03EC4832514EDFB009B35CB /* FirstAppController.swift in Sources */,
+				E03EC4872514EFE7009B35CB /* SecondAppCell.swift in Sources */,
+				E0ECB123251CF0DB0054A455 /* FirstAppCell.swift in Sources */,
+				E0782119250CDDEA00AE4B89 /* TableViewCell.swift in Sources */,
 				E0782103250CD70400AE4B89 /* AppDelegate.swift in Sources */,
+				E0782117250CD77C00AE4B89 /* TableViewController.swift in Sources */,
+				E0DA22FC2518DD4500391FBE /* OpenController.swift in Sources */,
 				E0782105250CD70400AE4B89 /* SceneDelegate.swift in Sources */,
+				E05ECC432513E768006F85E7 /* SecondAppController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +244,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -252,6 +305,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
