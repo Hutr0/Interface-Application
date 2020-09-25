@@ -25,7 +25,39 @@ class FirstAppController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         self.title = "Emoji Reader"
-        self.navigationItem.rightBarButtonItem = self.editButtonItem
+        self.navigationItem.leftBarButtonItem = self.editButtonItem
+    }
+    
+    @IBAction func unwindSegue(segue: UIStoryboardSegue) {
+        guard segue.identifier == "saveSegue" else { return }
+        
+        let sourceVC = segue.source as! FirstAddController
+        let emoji = sourceVC.emoji
+        
+        if let selectedIndexPath = tableView.indexPathForSelectedRow {
+            objects[selectedIndexPath.row] = emoji
+            tableView.reloadRows(at: [selectedIndexPath], with: .fade)
+        } else {
+            let newIndexPath = IndexPath(row: objects.count, section: 0)
+            objects.append(emoji)
+            tableView.insertRows(at: [newIndexPath], with: .fade)
+            tableView.reloadData()
+        }
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        super.prepare(for: segue, sender: sender)
+        
+        guard segue.identifier == "editSegue" else { return }
+        
+        let indexPath = tableView.indexPathForSelectedRow!
+        let emoji = objects[indexPath.row]
+        
+        let navigationVC = segue.destination as! UINavigationController
+        let firstAddVC = navigationVC.topViewController as! FirstAddController
+        
+        firstAddVC.emoji = emoji
+        firstAddVC.title = "Edit"
     }
 
     // MARK: - Table view data source

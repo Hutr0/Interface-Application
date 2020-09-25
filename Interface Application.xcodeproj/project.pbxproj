@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E0010EA8251E424A00C7035B /* FirstAddController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0010EA7251E424A00C7035B /* FirstAddController.swift */; };
 		E03EC4832514EDFB009B35CB /* FirstAppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03EC4822514EDFB009B35CB /* FirstAppController.swift */; };
 		E03EC4872514EFE7009B35CB /* SecondAppCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03EC4862514EFE7009B35CB /* SecondAppCell.swift */; };
 		E05ECC432513E768006F85E7 /* SecondAppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05ECC422513E768006F85E7 /* SecondAppController.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E0010EA7251E424A00C7035B /* FirstAddController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAddController.swift; sourceTree = "<group>"; };
 		E03EC4822514EDFB009B35CB /* FirstAppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppController.swift; sourceTree = "<group>"; };
 		E03EC4862514EFE7009B35CB /* SecondAppCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondAppCell.swift; sourceTree = "<group>"; };
 		E05ECC422513E768006F85E7 /* SecondAppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondAppController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 		E03EC4842514EE27009B35CB /* First */ = {
 			isa = PBXGroup;
 			children = (
+				E0010EA7251E424A00C7035B /* FirstAddController.swift */,
 				E03EC4822514EDFB009B35CB /* FirstAppController.swift */,
 				E0ECB122251CF0DB0054A455 /* FirstAppCell.swift */,
 				E0ECB125251D07980054A455 /* Emoji.swift */,
@@ -193,6 +196,7 @@
 				E0DA22FC2518DD4500391FBE /* OpenController.swift in Sources */,
 				E0782105250CD70400AE4B89 /* SceneDelegate.swift in Sources */,
 				E05ECC432513E768006F85E7 /* SecondAppController.swift in Sources */,
+				E0010EA8251E424A00C7035B /* FirstAddController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
