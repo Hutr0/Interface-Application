@@ -25,7 +25,7 @@ class FirstAppController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         self.title = "Emoji Reader"
-        self.navigationItem.leftBarButtonItem = self.editButtonItem
+        self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
     
     @IBAction func unwindSegue(segue: UIStoryboardSegue) {
